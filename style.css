@@ -1,0 +1,32 @@
+.Header{
+    width:100%;
+    text-align:center;
+}
+.HeadingListName{
+    text-align:center;
+    align-items:center;
+    margin-top:30px;
+}
+.HeadingListName input{
+    width:900px;
+    height: 30px;
+}
+.HeadingListName button{
+    width:400px;
+    height:35px;
+}
+.ListToBeDone ul{
+list-style-type: none;
+float:left;
+}
+
+.ListToBeDone ul li{
+    width:100%;
+    margin-left:60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul li:nth-child(odd){
+    background-color:grey;
+}
+ul li:
