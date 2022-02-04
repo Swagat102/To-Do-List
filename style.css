@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 .Header{
     width:100%;
     text-align:center;
@@ -22,11 +28,22 @@ float:left;
 
 .ListToBeDone ul li{
     width:100%;
-    margin-left:60px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left:30px;
 }
 ul li:nth-child(odd){
-    background-color:grey;
+    background-color:rgb(229,229,229);
 }
-ul li:
+ul li:nth-child(even){
+    background-color:rgb(249,249,249);
+}
+ul{
+    width:100%;
+    margin-top:20px;
+}
+
+.checked {
+ text-decoration:line-through;
+ background-color:red;   
+}
